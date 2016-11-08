@@ -3,162 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_color"
+    android:showDividers="middle|beginning|end"
+    android:divider="@color/gray_light"
     android:orientation="vertical">
-
-    <!--<EditText
-        android:id="@+id/et_input_other"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_small"
-        android:background="@color/bg_color_white"
-        android:gravity="center"
-        android:hint="其他"
-        android:padding="@dimen/margin_small" />-->
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/margin_large"
-                android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_large"
-            android:text="你好"/>
+                android:text="你好" />
         </LinearLayout>
     </ScrollView>
-    <EditText
-        android:id="@+id/et_input_price6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_small"
-        android:background="@color/bg_color_white"
-        android:gravity="center"
-        android:hint="股票价格666"
-        android:padding="@dimen/margin_small" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/gray" />
-
-    <EditText
-        android:id="@+id/et_input_price5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_small"
-        android:background="@color/bg_color_white"
-        android:gravity="center"
-        android:hint="股票价格555"
-        android:padding="@dimen/margin_small" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/gray" />
-
-    <EditText
-        android:id="@+id/et_input_price4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_small"
-        android:background="@color/bg_color_white"
-        android:gravity="center"
-        android:hint="股票价格444"
-        android:padding="@dimen/margin_small" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/gray" />
-
-    <EditText
-        android:id="@+id/et_input_price3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_small"
-        android:background="@color/bg_color_white"
-        android:gravity="center"
-        android:hint="股票价格333"
-        android:padding="@dimen/margin_small" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/gray" />
-
-    <EditText
-        android:id="@+id/et_input_price2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_small"
-        android:background="@color/bg_color_white"
-        android:gravity="center"
-        android:hint="股票价格222"
-        android:padding="@dimen/margin_small" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/gray" />
-
-    <EditText
-        android:id="@+id/et_input_price1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_small"
-        android:background="@color/bg_color_white"
-        android:gravity="center"
-        android:hint="股票价格111"
-        android:padding="@dimen/margin_small" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/gray" />
 
     <EditText
         android:id="@+id/et_input_price"
@@ -170,19 +35,25 @@
         android:hint="股票价格000"
         android:padding="@dimen/margin_small" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/gray" />
 
     <EditText
-        android:id="@+id/et_input_num"
+        android:id="@+id/et_input_num_buy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_small"
         android:background="@color/bg_color_white"
         android:gravity="center"
-        android:hint="股票数量"
+        android:hint="买入 股票数量"
+        android:padding="@dimen/margin_small" />
+
+    <EditText
+        android:id="@+id/et_input_num_sell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:background="@color/bg_color_white"
+        android:gravity="center"
+        android:hint="卖出 股票数量"
         android:padding="@dimen/margin_small" />
 
     <View
